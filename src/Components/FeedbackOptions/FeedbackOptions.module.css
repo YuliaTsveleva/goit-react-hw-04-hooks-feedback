@@ -1,0 +1,35 @@
+.FeedbackButtonList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.FeedbackListItem:not(:last-child) {
+  margin-right: 20px;
+}
+
+.Button {
+  font-size: 20px;
+  padding: 8px 18px;
+  min-width: 100px;
+  border-radius: 5px;
+  border: none;
+}
+
+.Good {
+  composes: Button;
+  background-color: rgb(190, 240, 190);
+  box-shadow: 0px 0px 5px 1px green;
+}
+
+.Neutral {
+  composes: Button;
+  background-color: rgb(204, 204, 204);
+  box-shadow: 0px 0px 5px 1px grey;
+}
+
+.Bad {
+  composes: Button;
+  background-color: rgb(250, 143, 143);
+  box-shadow: 0px 0px 5px 1px red;
+}

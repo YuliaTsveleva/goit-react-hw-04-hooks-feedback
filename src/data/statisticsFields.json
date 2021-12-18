@@ -1,0 +1,7 @@
+[
+  { "id": "field-1", "name": "good" },
+  { "id": "field-2", "name": "neutral" },
+  { "id": "field-3", "name": "bad" },
+  { "id": "field-4", "name": "total" },
+  { "id": "field-5", "name": "positive feedback" }
+]

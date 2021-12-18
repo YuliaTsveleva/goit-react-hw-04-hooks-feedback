@@ -1,0 +1,13 @@
+.Section {
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Title {
+  font-size: 30px;
+  padding: 20px;
+}
