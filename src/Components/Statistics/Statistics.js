@@ -10,7 +10,6 @@ const Statistics = props => (
       if (field.name !== 'positive feedback') {
         const className =
           field.name.charAt(0).toUpperCase() + field.name.slice(1);
-        console.log(className);
 
         return (
           <li key={field.id} className={s[className]}>
