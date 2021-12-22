@@ -12,8 +12,7 @@ export default function App() {
   const [feedbackBad, setfeedbackBad] = useState(0);
 
   const onLeaveFeedback = e => {
-    const target = e.target.textContent.toLowerCase();
-    switch (target) {
+    switch (e.target.name) {
       case 'good':
         setFeedbackGood(prev => prev + 1);
         break;
